@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure app takes full height */
+html, body, #__next {
+  height: 100%;
+}
